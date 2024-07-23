@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Becoming Friends Again</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Playfair+Display:ital@0;1&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #f0f0f0;
+        }
+        .custom-card {
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+        }
+        .card-header {
+            background-color: #6c5ce7;
+            color: white;
+            font-family: 'Playfair Display', serif;
+        }
+        .quote {
+            font-family: 'Playfair Display', serif;
+            font-style: italic;
+            color: #6c5ce7;
+        }
+        .btn-custom {
+            background-color: #6c5ce7;
+            color: white;
+        }
+        .btn-custom:hover {
+            background-color: #5649c0;
+            color: white;
+        }
+        .memory-card {
+            transition: transform 0.3s;
+        }
+        .memory-card:hover {
+            transform: scale(1.05);
+        }
+        .nav-tabs .nav-link {
+            color: #6c5ce7;
+        }
+        .nav-tabs .nav-link.active {
+            color: #fff;
+            background-color: #6c5ce7;
+            border-color: #6c5ce7;
+        }
+        .letter p {
+            margin-bottom: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="container my-5">
+        <div class="row justify-content-center">
+            <div class="col-md-8">
+                <div class="card custom-card">
+                    <div class="card-header text-center py-4">
+                        <h1 class="display-4">Becoming Friends Again</h1>
+                    </div>
+                    <div class="card-body">
+                        <div class="text-center mb-4">
+                            <img src="foto_kita_berdua.jpg" alt="Foto Kita Berdua" class="img-fluid rounded-circle" style="width: 200px; height: 200px; object-fit: cover;">
+                        </div>
+                        
+                        <ul class="nav nav-tabs mb-3" id="myTab" role="tablist">
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true">Message</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="letter-tab" data-bs-toggle="tab" data-bs-target="#letter" type="button" role="tab" aria-controls="letter" aria-selected="false">My Letter</button>
+                            </li>
+                        </ul>
+                        
+                        <div class="tab-content" id="myTabContent">
+                            <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                                <p class="lead">My dear and precious friend, </p>
+                                <p>I know we are in difficult times. This fight has put a distance between us. But do you remember all the beautiful moments we have spent together?</p>
+                                <p>I miss our laughter, our stories, and our togetherness. Will you open your heart and start again from the beginning?</p>
+                                <p class="quote text-center my-4">"True friendship does not mean always being together, but being able to forgive each other even though we are far apart."</p>
+                                <p>Let's fix this together. I promise to be a better friend to you.</p>
+                                <p class="text-end">Sincerely,<br><em>Asfi Nur Aizah</em></p>
+                            </div>
+                            <div class="tab-pane fade" id="letter" role="tabpanel" aria-labelledby="letter-tab">
+                                <div class="letter">
+                                    <p class="lead">Assalamu'alaikum warahmatullahi wabarakatuh</p>
+                                    <p>My best friend Selvi Rizki Agustin,</p>
+                                    <p>This is from Asfi. Maybe I'm the person you hate the most. I hope you are always healthy. It's been about a month since we lost contact, and I feel like I've lost enough. I realize all my mistakes. I'm lucky to have met a friend like you. I already think of you as more than a friend, but like my own sister.</p>
+                                    <p>As long as we lost contact, I really kept thinking. Everyone said I was selfish, everyone also said I was wrong. In the 3 years we've known each other, I've only ever felt like I've really made a good friend, an understanding friend who always gives everything. Here I really regret it. I want us to make things right again. I know this is difficult for you, after yesterday we fought, we had a lot of misunderstandings. We will rearrange our friendship. I love you sister and I miss you.</p>
+                                    <p>I want us to be together again, support each other again, regardless of what I have done, disappointed you, made you angry, made you hate me. I'm really sorry. I want to grow together, learn together with you in this life.</p>
+                                    <p>There are still many stories that we have imagined together, we still have a lot of plans for the future. We are already planning that when we graduate we will go abroad together. Mother, I like to ask why you never play at my place anymore. I can't be honest with mother if we have problems again. After this I promise I will be better, I can control my own emotions better, I will introspect myself. I am really sorry for everything that has happened, I am truly sorry. I will always be open to you whenever you want to contact me. I love you best female friend.</p>
+                                    <p>I don't think it's enough for me to explain everything in this article to you. Once again I apologize and I regret what I have done.</p>
+                                    <p>We learn together, grow together, develop together. Do you want to be friends with me again?</p>
+                                    <p>Give me another chance to be a good friend 😊</p>
+                                    <p>Please give me access to contact you, via any social media, unblock it. I really miss our time together.</p>
+
+                                    <p>Wassalamu'alaikum warahmatullahi wabarakatuh</p>
+                                    <p class="text-end">Sincerely,<br><em>Asfi Nur Aizah</em></p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="text-center my-4">
+                            <button class="btn btn-custom" data-bs-toggle="collapse" data-bs-target="#memories">Our Memories</button>
+                        </div>
+                        
+                        <div class="collapse" id="memories">
+                            <div class="row">
+                                <div class="col-md-4 mb-3">
+                                    <div class="card memory-card">
+                                        <img src="momen1.jpg.jpg" class="card-img-top" alt="Momen 1">
+                                        <div class="card-body">
+                                            <p class="card-text"></p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 mb-3">
+                                    <div class="card memory-card">
+                                        <img src="momen2.jpg.jpg" class="card-img-top" alt="Momen 2">
+                                        <div class="card-body">
+                                            <p class="card-text"></p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 mb-3">
+                                    <div class="card memory-card">
+                                        <img src="momen3.jpg.jpg" class="card-img-top" alt="Momen 3">
+                                        <div class="card-body">
+                                            <p class="card-text"></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="text-center mt-4">
+                            <audio controls>
+                                <source src="lagu.mp3" type="audio/mpeg">
+                            </audio>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
